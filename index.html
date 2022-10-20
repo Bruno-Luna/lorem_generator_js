@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lorem Generator</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #F7EBE8;">
+  <div class="row content-form">
+    <form class="col s12">
+      <div class="input-field">
+        <textarea id="textarea" 
+        style="height: 12rem;" class="materialize-textarea"></textarea>
+        <label for="spaceText">Textarea</label>
+      </div>
+    </form>
+
+    <div class="_buttons">
+      <button title="Gerar" type="button" class="deep-orange btn-small" id="generate" onclick="M.toast()">
+        <i class="material-icons">loop</i>
+      </button>
+
+      <button title="Limpar" type="button" class="brown btn-small" id="clear" onclick="M.toast()">
+        <i class="material-icons">backspace</i>
+      </button>
+      
+      <button title="Copiar" type="button" class="waves-effect waves-light btn-small" id="copy" onclick="M.toast()">
+        <i class="material-icons">content_copy</i>
+      </button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
