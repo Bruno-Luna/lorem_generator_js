@@ -1,0 +1,27 @@
+.content-form{
+    height: 100vh;
+}
+
+button, .content-form{
+    width: 70%;
+}
+
+form, ._buttons{
+    width: 40%;
+}
+
+._buttons, .content-form{
+    display: flex;
+    align-items: center;
+}
+
+._buttons{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.position_toast{
+  position: fixed;
+  top: -80px;
+  left: 210px;
+}
