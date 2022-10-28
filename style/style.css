@@ -25,3 +25,16 @@ form, ._buttons{
   top: -80px;
   left: 210px;
 }
+
+@media (max-width: 768px){ 
+    
+    .content-form{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    button, ._buttons{
+        width: 100%;
+    }
+
+}
